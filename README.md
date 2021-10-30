@@ -8,7 +8,7 @@ Alterações feitas por mim no projeto:
 1) Criei classe CompanyDTO, em request;
 2) Criei classe Company, em entity;
 3) Criei enum CompanyType;
-4) Acrescentei o tipo Enum "OUTROS";
+4) Acrescentei o tipo Enum "OUTROS" em PhoneType;
 5) Logo após realizei os testes com Post;
 6) E o mais importante, mantive a API funcionando! :)
 ****************************************************************
