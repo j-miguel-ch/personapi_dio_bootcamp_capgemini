@@ -11,6 +11,31 @@ Alterações feitas por mim no projeto:
 4) Acrescentei o tipo Enum "OUTROS" em PhoneType;
 5) Logo após realizei os testes com Post;
 6) E o mais importante, mantive a API funcionando! :)
+
+Exemplo de requisição no Postman (Verbo Post):
+
+{
+"id": 1,
+"firstName": "José",
+"lastName": "Altamirano",
+"cpf":"637.311.490-28",
+"birthDate": "07-09-1978",
+"companies": [
+	{
+    "id":1,
+	"type": "STATE",
+	"name": "Microsoft"
+	}
+	],
+"phones": [
+	{
+	"id":1,
+	"type": "MOBILE",
+	"number": "(11)9999999999"
+	}
+	]
+}
+
 ****************************************************************
 
 Nesta live coding vamos desenvolver um pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
